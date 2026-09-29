@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event</title>
+</head>
+
+<body>
+    <header>
+        <h1>Acting Workshop</h1>
+
+        <p>KRMU's Theatre club presents free interactive acting workshop for students.
+            Duration of the workshop will last two hours.
+        </p>
+        <hr>
+        <nav>
+            <a href="file:///C:/Users/Vritika%20Yadav/Desktop/Frontend/test/home.html">Home</a>
+            <a href="file:///C:/Users/Vritika%20Yadav/Desktop/Frontend/test/about_event.html">About Event</a>
+            <a href="file:///C:/Users/Vritika%20Yadav/Desktop/Frontend/test/schedule.html">Schedule</a>
+            <a href="#name">Registration</a>
+            <hr>
+
+        </nav>
+    </header>
+    <main>
+        <h2>Activities includes:</h2>
+        <ul>
+            <li>a short Skit</li>
+            <li>creative story writing</li>
+            <li>cinematography techniques</li>
+            <li>dumb sharade game</li>
+            <li>dialogue speaking</li>
+        </ul>
+
+        <div>
+            <img src="C:\Users\Vritika Yadav\Pictures\google wallpaper.jpg" alt="piano" width="465px" height="100px">
+        </div>
+        </section>
+        <table border="3px">
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>a short Skit</td>
+                <td rowspan="5">17-09-2026</td>
+                <td>12:00 PM</td>
+                <td rowspan="5">Multipurpose Hall</td>
+            </tr>
+            <tr>
+                <td>creative story writing</td>
+                <td>1:00 PM</td>
+            </tr>
+            <tr>
+                <td>cinematography techniques</td>
+                <td>1:30 PM</td>
+            </tr>
+            <tr>
+                <td>dumb sharade game</td>
+                <td>1:45 PM</td>
+            </tr>
+            <tr>
+                <td>dialogue speaking</td>
+                <td>2:00 PM</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Fill the following form to Register:</h3>
+        <form>
+            <!--input box gets highlighted
+             whenever i click on it because of
+              the "for" and "id" name being the same-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="enter name">
+            <br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="enter email@gmail.com">
+            <br> <br>
+            <label for="phone number">Mobile Number:</label>
+            <input type="number" placeholder="enter your mobile number" id="phone number">
+            <br><br>
+            <!--write id = male or female so that 
+            you can add label for your radio-->
+            <label for="Male">Male:</label>
+            <input type="radio" id="Male" name="gender"> 
+            <label for="Female">Female:</label>
+            <input type="radio" id="Female" name="gender"> 
+            <br><br>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="btech">BTech</option>
+                <option value="bba">BBA</option>
+                <option value="bcom">BCom</option>
+                <option value="bca">BCA</option>
+                <option value="BA">BA</option>
+                <option value="bsc">BSc</option>
+            </select>
+
+            <br><br>
+            <label for="event selection">Event Selection</label>
+            <select name="event selection" id="event selection">
+                <option value="a short Skit">a short Skit</option>
+                <option value="creative story writing">creative story writing</option>
+                <option value="cinematography techniques">cinematography techniques</option>
+                <option value="dumb sharade game">dumb sharade game</option>
+                <option value="dialogue speaking">dialogue speaking</option>
+            </select>
+            <br><br>
+            <label for="comments">Comments</label> <br>
+            <textarea name="comments" id="comments:" rows="4" placeholder="Enter your message here.."></textarea>
+            <br><br>
+            <input type="submit" value="submit"> <input type="reset" value="reset">
+        </form>
+
+        <br><br>
+        <hr>
+        <footer>K.R Mangalam University <br> contact: 1234567890 </footer>
+    </main>
+</body>
+
+</html>
